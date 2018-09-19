@@ -47,6 +47,10 @@ li {
   list-style-type: none;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 .listView li {
   padding: 2px;
 }

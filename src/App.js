@@ -5,7 +5,7 @@ import Nav from './Components/Nav'
 
 export default class App extends Component {
   constructor(props) {
-    super();
+    super(props);
     this.state = {
       venues: [],
       allMarkers: []
